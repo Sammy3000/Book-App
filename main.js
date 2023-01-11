@@ -18,7 +18,8 @@ class UI {
     const row = document.createElement("tr");
     row.innerHTML = ` 
     <tr>
-    <td>${book.title}</td>
+    <td>"${book.title}"</td>
+    <td>by</td>
     <td>${book.author}</td>
     <td><a href="#"class='delete'>remove</a></td>
     <tr>
@@ -102,7 +103,7 @@ document.querySelector("#book-list").addEventListener("click", (e) => {
 
   //Remove book from Store
   Store.removeBook(
-    e.target.parentElement.previousElementSibling.previousElementSibling
+    e.target.parentElement.previousElementSibling.previousElementSibling.previousElementSibling
       .textContent
   );
 });
