@@ -17,11 +17,13 @@ class UI {
     const list = document.querySelector("#book-list");
     const row = document.createElement("tr");
     row.innerHTML = ` 
-    <tr>
+   
+    <tr class='add-book'>
     <td>${book.title}</td>
     <td>${book.author}</td>
     <td><a href="#"class='delete'>remove</a></td>
     <tr>
+   
     `;
     list.appendChild(row);
   }
