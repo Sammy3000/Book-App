@@ -28,6 +28,7 @@ function SaveBook(title, author) {
   localStorage.library = JSON.stringify(library);
   LibraryLoad();
 }
+
 //Event that happens when submiting the form
 document.getElementById("AddBook").addEventListener("submit", (event) => {
   event.preventDefault();
@@ -38,5 +39,22 @@ document.getElementById("AddBook").addEventListener("submit", (event) => {
   formAddBook.reset();
   SaveBook(bookTitle, bookAuthor);
 });
+
+//Function to delete book from library
+function DeleteBook(id) {
+  library = library.filter((book) => book.id !== id);
+  localStorage.library = JSON.stringify(library);
+  LibraryLoad();
+}
+// function to display books
+function DisplayBook(book) {
+  const clon = temp.content.cloneNode(true);
+  clon.querySelectorAll("p")[0].innerHTML = `book name: ${book.title}`;
+  clon.querySelectorAll("p")[1].innerHTML = `author name: ${book.author}`;
+  clon.querySelector("button").addEventListener("click", () => {
+    DeleteBook(book.id);
+  });
+  bookshelf.appendChild(clon);
+}
 
 LibraryLoad();
