@@ -17,13 +17,12 @@ class UI {
     const list = document.querySelector("#book-list");
     const row = document.createElement("tr");
     row.innerHTML = ` 
-   
-    <tr class='add-book'>
+    <tr>
     <td>${book.title}</td>
+    <td>by</td>
     <td>${book.author}</td>
     <td><a href="#"class='delete'>remove</a></td>
     <tr>
-   
     `;
     list.appendChild(row);
   }
@@ -105,6 +104,6 @@ document.querySelector("#book-list").addEventListener("click", (e) => {
   //Remove book from Store
   Store.removeBook(
     e.target.parentElement.previousElementSibling.previousElementSibling
-      .textContent
+      .previousElementSibling.textContent
   );
 });

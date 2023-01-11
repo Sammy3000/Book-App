@@ -6,6 +6,10 @@
 .main-container {
   height: 100vh;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+ gap: 30px;
+
 }
 h1 {
   font-size: 25px;
@@ -19,12 +23,17 @@ h1 {
   display: flex;
   justify-content: space-around;
   align-items: center;
+
 }
 .form-class {
-  position: absolute;
-  top: 60%;
-  left: 50%;
-  transform: translate(-50%, -60%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+table {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .form-control {
   padding: 0.5rem 1rem;
@@ -35,24 +44,50 @@ h1 {
 .btn {
   padding: 0.3rem 0.8rem;
 }
-table {
-  position: absolute;
-  top: 30%;
-  left: 50%;
-  transform: translate(-50%, -30%);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-tr {
-  display: flex;
-  gap: 1rem;
+
+tr,
+td {
+  padding: 8px 3px;
 }
 th {
-  padding: 1rem 1.5rem;
-  margin-right: 1rem;
+  padding: 8px 3px;
+  font-size: 0.9em;
+  margin: 25px 0;
+  text-transform: capitalize;
 }
-td {
-  padding: 0.5rem 1.5rem;
-  width: 5rem;
+
+.booksContainer {
+  border: 3px solid black;
+  border-radius: 2px;
+  border-collapse: collapse;
+  margin: 25px auto;
+  font-size: 0.9em;
+ 
 }
+
+#book-list tr,
+#book-list td {
+  padding: 8px 3px;
+}
+.booksContainer tbody tr:nth-of-type(odd) {
+  background-color: #dddddd;
+  text-align: end;
+}
+
+.booksContainer tbody .delete {
+  background-color: white;
+  border-radius: 2px;
+  border: 3px solid black;
+  box-shadow: 2px 3px #000;
+  color: black;
+  font-weight: bold;
+  margin-left: 300px;
+  padding: 0.2rem;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+/* #book-list td:last-child{
+
+padding-left: 500px;
+} */
