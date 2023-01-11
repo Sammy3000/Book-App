@@ -104,6 +104,6 @@ document.querySelector("#book-list").addEventListener("click", (e) => {
   //Remove book from Store
   Store.removeBook(
     e.target.parentElement.previousElementSibling.previousElementSibling
-      .textContent
+      .previousElementSibling.textContent
   );
 });
