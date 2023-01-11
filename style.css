@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 .main-container {
   height: 100vh;
   width: 100%;
@@ -10,6 +11,7 @@
   flex-direction: column;
   gap: 30px;
 }
+
 h1 {
   font-size: 25px;
   font-family: sans-serif;
@@ -17,28 +19,34 @@ h1 {
   text-align: center;
   margin-top: 2rem;
 }
+
 .form-group {
   margin: 1rem 0;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
+
 .form-class {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 table {
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .form-control {
   padding: 0.5rem 1rem;
 }
+
 ::placeholder {
   text-align: center;
 }
+
 .btn {
   padding: 0.3rem 0.8rem;
 }
@@ -47,6 +55,7 @@ tr,
 td {
   padding: 8px 3px;
 }
+
 th {
   padding: 8px 3px;
   font-size: 0.9em;
@@ -62,13 +71,14 @@ th {
   font-size: 0.9em;
 }
 
+.booksContainer tbody tr:nth-of-type(odd) {
+  background-color: #ddd;
+  text-align: end;
+}
+
 #book-list tr,
 #book-list td {
   padding: 8px 3px;
-}
-.booksContainer tbody tr:nth-of-type(odd) {
-  background-color: #dddddd;
-  text-align: end;
 }
 
 .booksContainer tbody .delete {
@@ -83,8 +93,3 @@ th {
   text-decoration: none;
   text-transform: capitalize;
 }
-
-/* #book-list td:last-child{
-
-padding-left: 500px;
-} */
