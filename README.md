@@ -30,7 +30,7 @@ git clone git@github.com:Sammy3000/Book-App.git
 ```
 3. To access cloned directory run:
 ```bash
-cd MyPortfolio
+cd book-app
 ```
 3. Open it with the live server
 
