@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main-container {
+  height: 100vh;
+  width: 100%;
+}
+h1 {
+  font-size: 25px;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 2rem;
+}
+.form-group {
+  margin: 1rem 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.form-class {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -60%);
+}
+.form-control {
+  padding: 0.5rem 1rem;
+}
+::placeholder {
+  text-align: center;
+}
+.btn {
+  padding: 0.3rem 0.8rem;
+}
+table {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+tr {
+  display: flex;
+  gap: 1rem;
+}
+th {
+  padding: 1rem 1.5rem;
+  margin-right: 1rem;
+}
+td {
+  padding: 0.5rem 1.5rem;
+  width: 5rem;
+}
