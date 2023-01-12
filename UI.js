@@ -1,4 +1,4 @@
-import Store from './Store.js';
+import Store from "./Store.js";
 // UI Class: Handle UI Tasks
 
 export default class UI {
@@ -8,9 +8,10 @@ export default class UI {
   }
 
   static addBookToList(book) {
-    const list = document.querySelector('#book-list');
-    const row = document.createElement('tr');
+    const list = document.querySelector("#book-list");
+    const row = document.createElement("tr");
     row.innerHTML = ` 
+   
     <tr>
     <td>${book.title}</td>
     <td>by</td>
@@ -22,13 +23,13 @@ export default class UI {
   }
 
   static deleteBook(el) {
-    if (el.classList.contains('delete')) {
+    if (el.classList.contains("delete")) {
       el.parentElement.parentElement.remove();
     }
   }
 
   static clearFields() {
-    document.querySelector('#tittle').value = '';
-    document.querySelector('#author').value = '';
+    document.querySelector("#tittle").value = "";
+    document.querySelector("#author").value = "";
   }
 }
