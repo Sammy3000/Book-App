@@ -93,3 +93,58 @@ th {
   text-decoration: none;
   text-transform: capitalize;
 }
+
+.main-nav {
+  display: flex;
+  width: 95%;
+  margin: 1rem auto;
+  border: 2px solid rgb(60, 56, 56);
+  justify-content: space-between;
+  height: 3rem;
+  padding: 0 1rem;
+  font-family: sans-serif;
+}
+.name {
+  line-height: 3rem;
+  font-weight: 700;
+}
+.menu {
+  display: flex;
+  gap: 1.5rem;
+}
+.menu li {
+  list-style: none;
+}
+.menu li a {
+  line-height: 3rem;
+  text-decoration: none;
+  color: black;
+}
+.menu li a:hover:active {
+  color: lightblue;
+}
+.date {
+  display: flex;
+  width: 95%;
+  margin: 1rem auto;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+.footer {
+  width: 95%;
+  margin: 0 auto;
+  height: 3rem;
+  border: 2px solid black;
+}
+.footer-content {
+  line-height: 3rem;
+  text-align: center;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  /* display: none; */
+}
