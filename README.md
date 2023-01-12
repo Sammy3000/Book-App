@@ -1,89 +1,124 @@
-# Book-App!
+<!-- TABLE OF CONTENTS -->
 
-## Description
+# 📗 Table of Contents
 
-The Bookstore is a website that displays a list of books, adds a book, and removes a selected book.
-This project is part of the Microverse curriculum module 2. The main objective is to understand how to use classes, run tests, and creating professional documentation for development.
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
 
-## Built With
+<!-- PROJECT DESCRIPTION -->
+
+# 📖 [BOOK APP] <a name="about-project"></a>
+
+- In this project, WE will built a basic website that allows users to add/remove books from a list .
+
+## 🛠 Built With <a name="built-with"></a>
 
 - HTML
 - CSS
-- JavaScript
+- Javascript
 
-## Live Demo
+## 💻 Getting Started <a name="getting-started"></a>
 
-[Live Demo Link]
-
-## Get Started
-
-To get the content of this project locally you need to run the following commands in your terminal.
+To get a local copy up and running, follow these steps.
 
 ### Prerequisites
-- IDE(code editor) like: **Vscode**, **Sublime**, etc. 
-- [Git](https://www.linode.com/docs/guides/how-to-install-git-on-linux-mac-and-windows/)
+
+In order to run this project you need:
+
+- Git/Github
+- HTML and CSS knowledge
+- VS code or any other equivalent tool.
+
+<!--
+Example command:
+
+```sh
+ gem install rails
+```
+ -->
 
 ### Setup
-1. Download the **Zip** file or clone the repo with:
-```bash
-git clone git@github.com:Sammy3000/Book-App.git
+
+Clone this repository to your desired folder:
+
+<!--
+Example commands:
+
+```sh
+  cd my-folder
+  git clone git@github.com:myaccount/my-project.git
 ```
-3. To access cloned directory run:
-```bash
-cd book-app
-```
-3. Open it with the live server
+--->
 
 ### Install
-> To install linters and other project's dependencies run:
-```bash
-npm install
-```
-## Run Test for Linters
 
-For tracking linter errors locally you need to follow these steps:
+Install this project with:
 
-1. For tracking linter errors in HTML files run:
-```bash 
-npx hint .
-```
+- to install locally run git clone https://github.com/Sammy3000/Book-App.git
+- open the cloned directory with VSCode
+- Install live server extension for VSCode
+- Right click on the index.html and select open with live servers
 
-2. For tracking linter errors in CSS or SASS files run:
+### Usage
 
-```bash
-npx stylelint "\*_/_.{css,scss}"
-```
+- Feel free to use this project.
 
-3. For tracking linter errors in JavaScript files run:
+<!-- AUTHORS -->
 
-```bash
-npx eslint .
-```
+## 👥 Authors <a name="authors"></a>
 
-## Authors
+> This is a collaborative project
 
-👤 **Towett Sammy **
+👤 **Towett Sammy**
 
-- GitHub: [@Sammy3000](https://github.com/Sammy3000)
-  
+- GitHub: [@sam](https://github.com/Sammy3000)
+- Twitter: [@towettsam](https://twitter.com/sammy15375658)
+- LinkedIn: [@towettSammy](https://www.linkedin.com/in/towett-sammy-43476024a/)
+
 👤 **Elhama Tokhi**
 
-- GitHub: [@elhamatokhi](https://github.com/elhamatokhi)
+- Gmail: [@bakhtmohammadtokhi](bakhtmohammadtokhi@gmail.com)
 
-## 🤝 Contributing
+<!-- CONTRIBUTING -->
 
-- Contributions, issues, and feature requests are welcome!
-- Feel free to check the [issues page](https://github.com/Sammy3000/Book-App/issues).
+## 🤝 Contributing <a name="contributing"></a>
 
-## Show your support
+Contributions, issues, and feature requests are welcome!
 
-Give a ⭐️ if you like this project!
+Feel free to check the [issues page](../../issues/).
 
-## Acknowledgments
+<!-- SUPPORT -->
 
-- Thank You [Microverse](www.microverse.org) team that help me with the template of this project.
-- Thanks to everyone who will get time to check this code and suggest any [issue](https://github.com/tresorsawasawa/MyPortfolio/issues) to improve the page.
+## ⭐️ Show your support <a name="support"></a>
 
-## 📝 License
+If you like this project feel free to use it.
 
-This project is [MIT](./MIT.md) licensed.
+<!--
+Example:
+
+```sh
+
+```
+ -->
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+- We would like to thank our bootcamp Microverse for getting us together to work on this project.
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
