@@ -36,6 +36,9 @@ h1 {
   align-items: center;
   display: none;
 }
+.form-class .form-group{
+border: 2px solid black;
+}
 
 table {
   display: flex;
@@ -44,11 +47,29 @@ table {
 }
 
 .form-control {
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 0.5rem;  
+  min-width: 400px;
+}
+
+.btn{
+  background-color: white;
+  border-radius: 2px;
+  border: 3px solid black;
+  box-shadow: 2px 3px #000;
+  color: black;
+  font-weight: bold;
+  margin-left: 300px;
+  padding: 0.2rem;
+  text-decoration: none;
+  text-transform: capitalize;
 }
 
 ::placeholder {
-  text-align: center;
+  text-align: start;
+  color: black;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: larger;
 }
 
 .btn {
