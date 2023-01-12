@@ -37,6 +37,10 @@ h1 {
   display: none;
 }
 
+.form-class .form-group {
+  border: 2px solid black;
+}
+
 table {
   display: flex;
   align-items: center;
@@ -44,15 +48,29 @@ table {
 }
 
 .form-control {
-  padding: 0.5rem 1rem;
-}
-
-::placeholder {
-  text-align: center;
+  padding: 0.5rem 0.5rem;
+  min-width: 400px;
 }
 
 .btn {
-  padding: 0.3rem 0.8rem;
+  background-color: white;
+  border-radius: 2px;
+  border: 3px solid black;
+  box-shadow: 2px 3px #000;
+  color: black;
+  font-weight: bold;
+  margin-left: 300px;
+  padding: 0.2rem;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+::placeholder {
+  text-align: start;
+  color: black;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: larger;
 }
 
 tr,
@@ -158,7 +176,6 @@ th {
 }
 
 .contact {
-  display: none;
   flex-direction: column;
   align-items: center;
   justify-content: center;
