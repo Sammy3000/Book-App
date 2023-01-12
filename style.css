@@ -40,7 +40,11 @@ h1 {
 .form-class .form-group {
   border: 2px solid black;
 }
-
+.form-heading {
+  font-family: sans-serif;
+  font-style: normal;
+  padding: 2rem 0;
+}
 table {
   display: flex;
   align-items: center;
@@ -176,6 +180,7 @@ th {
 }
 
 .contact {
+  display: none;
   flex-direction: column;
   align-items: center;
   justify-content: center;
