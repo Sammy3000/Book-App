@@ -3,9 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   position: relative;
 }
+
 .main-container {
   height: 100vh;
   width: 100%;
@@ -30,7 +32,6 @@ h1 {
 }
 
 .form-class {
-  display: flex;
   flex-direction: column;
   align-items: center;
   display: none;
@@ -107,25 +108,31 @@ th {
   padding: 0 1rem;
   font-family: sans-serif;
 }
+
 .name {
   line-height: 3rem;
   font-weight: 700;
 }
+
 .menu {
   display: flex;
   gap: 1.5rem;
 }
+
 .menu li {
   list-style: none;
 }
+
 .menu li a {
   line-height: 3rem;
   text-decoration: none;
   color: black;
 }
+
 .menu li a:hover:active {
   color: lightblue;
 }
+
 .date {
   display: flex;
   width: 95%;
@@ -133,6 +140,7 @@ th {
   justify-content: flex-end;
   align-items: flex-start;
 }
+
 .footer {
   position: absolute;
   width: 95%;
@@ -143,12 +151,13 @@ th {
   height: 3rem;
   border: 2px solid black;
 }
+
 .footer-content {
   line-height: 3rem;
   text-align: center;
 }
+
 .contact {
-  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
