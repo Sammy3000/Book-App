@@ -40,3 +40,32 @@ document.querySelector('#book-list').addEventListener('click', (e) => {
       .previousElementSibling.textContent,
   );
 });
+
+// Navigation Section
+
+const newlist = document.querySelector('.list-menu');
+const add = document.querySelector('.add-new');
+const contact = document.querySelector('.contact-menu');
+const contactPage = document.querySelector('.contact');
+const formSection = document.querySelector('.form-class');
+const addedBooks = document.querySelector('.booksContainer');
+const bookHead = document.querySelector('.book-head');
+
+add.addEventListener('click', () => {
+  formSection.style.display = 'flex';
+  addedBooks.style.display = 'none';
+  contactPage.style.display = 'none';
+  bookHead.style.display = 'none';
+});
+newlist.addEventListener('click', () => {
+  formSection.style.display = 'none';
+  contactPage.style.display = 'none';
+  addedBooks.style.display = 'block';
+  bookHead.style.display = 'block';
+});
+contact.addEventListener('click', () => {
+  contactPage.style.display = 'flex';
+  formSection.style.display = 'none';
+  addedBooks.style.display = 'none';
+  bookHead.style.display = 'none';
+});

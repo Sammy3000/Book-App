@@ -11,6 +11,7 @@ export default class UI {
     const list = document.querySelector('#book-list');
     const row = document.createElement('tr');
     row.innerHTML = ` 
+   
     <tr>
     <td>${book.title}</td>
     <td>by</td>

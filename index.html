@@ -10,8 +10,18 @@
   </head>
   <body>
     <section class="main-container">
+      <nav class="main-nav">
+        <p class="name">Awesome Books</p>
+        <ul class="menu">
+          <li><a href="#" class="list-menu">List</a></li>
+          <li><a href="#" class="add-new">Add New</a></li>
+          <li><a href="#" class="contact-menu">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="date">
+        <p class="time">Jan 11th 2023, 11:15:08am</p>
+      </div>
       <table class="booksContainer">
-        <h1>Awesome Books</h1>
         <!-- <thead>
           <tr>
             <th>title</th>
@@ -20,10 +30,13 @@
             <th></th>
           </tr>
         </thead> -->
-        <tbody id="book-list"></tbody>
+        <tbody id="book-list">
+          <h1 class="book-head">All awesome Books</h1>
+        </tbody>
       </table>
 
       <form id="book-form" class="form-class">
+        <h2 class="form-heading">Add a New Book</h2>
         <div class="form-group">
           <input
             type="text"
@@ -45,6 +58,27 @@
 
         <input type="submit" value="add-book" class="btn" />
       </form>
+      <section class="contact">
+        <h1>Contact Information</h1>
+        <p class="contact-info">
+          Do you have any questions or you just want to say "Hello"? You can
+          reach out to us!<br />
+        </p>
+
+        <ul>
+          <li>
+            Our Email
+            <a href="bakhtmohammadtokhi@gmail.com"
+              >bakhtmohammadtokhi@gmail.com</a
+            >
+          </li>
+          <li>Our phone number: +254743793661</li>
+          <li>Our address: 43-50400 Nairobi, Kenya.</li>
+        </ul>
+      </section>
+      <footer class="footer">
+        <p class="footer-content">&copy; Project made by Elhama and Sammy</p>
+      </footer>
     </section>
     <script type="module" src="index.js"></script>
   </body>
